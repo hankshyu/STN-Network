@@ -6,7 +6,7 @@ overhead.
 ## Localization Net architecture
 
 ### 1.Regular Structure(STN)
-Most commonly used spatial transform network localization architecture, which **resembles the LeNet5 architecture**.
+Most commonly used spatial transform network localization architecture, which resembles the **LeNet5 architecture**
 
 |Type| Filter Shape  | Output shape | Parameters|
 |:----|:----:|:---:|:---:|
