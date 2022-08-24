@@ -6,7 +6,7 @@ overhead.
 ## Localization Net architecture
 
 ### 1.Regular Structure(STN)
-Most commonly used spatial transform network localization architecture, which resembles the LeNet5 architecture.
+Most commonly used spatial transform network localization architecture, which **resembles the LeNet5 architecture**.
 
 |Type| Filter Shape  | Output shape | Parameters|
 |:----|:----:|:---:|:---:|
@@ -17,7 +17,7 @@ Most commonly used spatial transform network localization architecture, which re
 |Total| | |3194|
 
 ### 2.VGG-like Structure(STN1)
-Breaking down large size convolution filers into stacked small size convolutions is a signigicant change made by the VGG Net. Similar changes could also be made to the STN localization architecture, by replacing the first 7 x 7 wide convolution layer into three stacked 3 x 3 convolution layers and the second 5 x 5 wide convolution would turn into two 3 x 3 convolution layers at the meantime.
+**Breaking down large size convolution filers** into stacked small size convolutions is a signigicant change made by the VGG Net. Similar changes could also be made to the STN localization architecture, by replacing the first 7 x 7 wide convolution layer into three stacked 3 x 3 convolution layers and the second 5 x 5 wide convolution would turn into two 3 x 3 convolution layers at the meantime.
 
 |Type| Filter Shape  | Output shape | Parameters|
 |:----|:----:|:---:|:---:|
@@ -33,8 +33,8 @@ Total|	|	|3032
 
 ### 3.The Proposed Structure(STN2)
 
-The proposed structure utilize 1 x 1 kernels between channels to increase or decrease the feature map count and
-Batch Normalization to reduces the covariate shift so fewer exploding gradients would happen.
+The proposed structure utilize **1 x 1 kernels between channels** to increase or decrease the feature map count and
+**Batch Normalization** to reduces the covariate shift so fewer exploding gradients would happen.
 
 |Type| Filter Shape  | Output shape | Parameters|
 |:----|:----:|:---:|:---:|
