@@ -61,22 +61,116 @@ Total|	|	|3690
 
 ### 1. Cifar-10
 
-Model	Original	STN	STN 1	The proposed structure - STN 2
-	Top-5 val.	Top-5 test	Top-5 
-val.	Top-5 
-test	Top-5 
-val.	Top-5
-test	Top-5 
-val.	Top-5 
-test
-EfficientNet-b0	73.33	72.33	75.67	73.92	71.83	74.25	74.00	74.83
-EfficientNet-b1	72.83	71.58	73.33	71.92	71.42	72.25	72.00	73.00
-EfficientNet-b2	66.83	66.83	68.50	68.42	69.58	68.50	73.17	75.00
-EfficientNet-b3	63.33	60.83	69.83	69.83	74.00	73.67	75.58	75.42
-EfficientNet-b4	68.67	69.25	69.42	71.83	73.25	72.08	73.92	74.83
-EfficientNet-b5	70.00	68.75	72.75	71.83	73.25	72.08	79.83	78.33
-ResNet-50	75.17	73.58	76.42	76.92	78.75	77.00	77.42	77.33
 
+<table>
+  <tr>
+    <th>Model</th>
+    <th colspan="2">Control group </th>
+    <th colspan="2">STN </th>
+    <th colspan="2">STN 1</th>
+    <th colspan="2">STN 2</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Top 5 val.</td>
+    <td>Top 5 test</td>
+	<td>Top 5 val.</td>
+    <td>Top 5 test</td>
+	<td>Top 5 val.</td>
+    <td>Top 5 test</td>
+	<td>Top 5 val.</td>
+    <td>Top 5 test</td>
+  </tr>
+  <tr>
+	<td>EfficientNet-b0</td>
+	<td>86.83</td>	
+	<td>86.05</td>	
+	<td>87.48</td>	
+	<td>86.40</td>	
+	<td>87.88</td>	
+	<td>86.81</td>	
+	<td>87.71</td>	
+	<td>87.45</td>
+  </tr>
+  <tr>
+	<td>EfficientNet-b1</td>
+	<td>86.90</td>
+	<td>86.89</td>
+	<td>87.01</td>
+	<td>86.95</td>
+	<td>87.62</td>
+	<td>86.98</td>
+	<td>87.71</td>
+	<td>87.03</td>
+  </tr>
+  <tr>
+  	<td>EfficientNet-b2</td>
+	<td>86.65</td>
+	<td>86.38</td>
+	<td>87.81</td>
+	<td>87.30</td>
+	<td>87.57</td>
+	<td>87.36</td>
+	<td>87.77</td>
+	<td>87.52</td>
+  </tr>
+  <tr>
+  	<td>EfficientNet-b3</td>
+  	<td>87.11</td>
+  	<td>86.79</td>
+  	<td>87.12</td>
+  	<td>86.96</td>
+  	<td>87.19</td>
+  	<td>87.02</td>
+  	<td>87.64</td>
+  	<td>87.22</td>
+  </tr>
+  <tr>
+  	<td>ResNet-18</td>
+  	<td>85.60</td>
+  	<td>84.96</td>
+  	<td>85.44</td>
+  	<td>85.53</td>
+  	<td>85.79</td>
+  	<td>85.83</td>
+  	<td>86.37</td>
+  	<td>86.41</td>
+  </tr>
+  <tr>
+  	<td>ResNet-50</td>
+  	<td>85.07</td>
+  	<td>84.84</td>
+  	<td>85.43</td>
+  	<td>85.01</td>
+  	<td>85.63</td>
+  	<td>85.02</td>
+  	<td>86.69</td>
+  	<td>86.19</td>
+  </tr>
+  <tr>
+	<td>ResNet-152</td>
+	<td>85.15</td>
+	<td>84.65</td>
+	<td>85.09</td>
+	<td>84.81</td>
+	<td>85.40</td>
+	<td>85.16</td>
+	<td>86.86</td>
+	<td>85.17</td>
+  </tr>
+  <tr>
+  	<td>DenseNet-121</td>
+  	<td>88.91</td>
+  	<td>88.61</td>
+  	<td>89.42</td>
+  	<td>89.29</td>
+  	<td>89.88</td>
+  	<td>89.51</td>
+  	<td>86.17</td>
+  	<td>90.28</td>
+  </tr>
+
+</table>
 
 
 
