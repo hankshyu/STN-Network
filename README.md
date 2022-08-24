@@ -6,7 +6,7 @@
 Spatial transformer network is a powerful module that improves the spatial invariance of convolutional neural networks. Amid all components, the localization net serves as the backbone as it intakes the feature map and yields the affine transformation parameters, deciding how the transformation to be executed. The design of the localization net is closely correlated to the outcome of transformation consequently influence accuracy. This work experiments through different localization net designs and test them with several prominent models on various datasets. Aiming to discover a modern localization network architecture that boosts the performance of STN transformation with less parameters and computational 
 overhead.
 
-**Implement in Pytorch & Python**
+**Implementation done in Pytorch & Python**
 
 ## Localization Net architecture
 
