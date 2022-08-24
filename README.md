@@ -62,7 +62,12 @@ Total|	|	|3690
 
 ## Experiment Result
 
-Below show the result of each module testing with 4 different setups on the Cifar-10 dataset. Each module were tested with no STN setup (called Control group), STN, STN1 and STN2. The expermintent leads to a result as below:
+Below show the result of each module testing with 4 different setups on the Cifar-10 dataset. Each module were tested with no STN setup (called Control group), STN, STN1 and STN2. We test the above mentioned setting on 3 different dataset:
+- Cifar-10
+- Caltech 101
+- Chinese Traffic Sign Database
+
+The expermintental result of all settings on Cifar-10 is presented as below:
 
 <table>
   <tr>
