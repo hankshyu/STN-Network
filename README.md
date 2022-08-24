@@ -59,8 +59,7 @@ Total|	|	|3690
 
 ## Experiment Result
 
-### 1. Cifar-10
-
+Below show the result of each module testing with 4 different setups on the Cifar-10 dataset. Each module were tested with no STN setup (called Control group), STN, STN1 and STN2. The expermintent leads to a result as below:
 
 <table>
   <tr>
@@ -169,7 +168,6 @@ Total|	|	|3690
   	<td>86.17</td>
   	<td>90.28</td>
   </tr>
-
 </table>
 
 
