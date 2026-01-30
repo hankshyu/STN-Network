@@ -25,7 +25,7 @@ the performance of STN transformation with less parameters and computational ove
     <img src="img/perf_cifar_10.png" alt="sample" height="450" />
 </p>
 
-<p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>src/STN
+<p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>
 
 ## Folder Hierarchy
 
@@ -77,6 +77,4 @@ src/STN
     ├── ResNet-18_sp.ipynb
     ├── ResNet-34_sp.ipynb
     └── ResNet-50_sp.ipynb
-
-4 directories, 43 files
 ```
