@@ -21,8 +21,8 @@ the performance of STN transformation with less parameters and computational ove
 <p align="center"> <img src="img/L_STN_arch.png" alt="sample" width="600" /> </p>
 
 <p align="center">
-    <img src="img/perf_caltech_101.png" alt="sample" height="300" />
-    <img src="img/perf_cifar_10.png" alt="sample" height="300" />
+    <img src="img/perf_caltech_101.png" alt="sample" height="450" />
+    <img src="img/perf_cifar_10.png" alt="sample" height="450" />
 </p>
 
-<p align="center"> <img src="img/STN_compare.png" alt="sample" width="600" /> </p>
+<p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>
