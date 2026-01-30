@@ -2,7 +2,7 @@
 
 <img alt="GitHub License" src="https://img.shields.io/github/license/hankshyu/STN-Network?color=orange&logo=github"> <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/hankshyu/STN-Network?color=orange&logo=github"> <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hankshyu/STN-Network"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/hankshyu/STN-Network?logo=git&color=green"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hankshyu/STN-Network?logo=git&color=green">
 
-Implementation to our paper ***"[An Improved Spatial Transformer Network based on Lightweight Localization Net (L-STN)"](docs/ISASD2024.pdf)"***
+Implementation to our ISASD, 2024 paper ***"[An Improved Spatial Transformer Network based on Lightweight Localization Net (L-STN)](docs/ISASD2024.pdf)"***
 
 ## 📝 Abstract
 
@@ -17,3 +17,12 @@ the performance of STN transformation with less parameters and computational ove
 
 ## 🧑‍🏫 Demo
 
+<p align="center"> <img src="img/STN_arch.png" alt="sample" width="600" /> </p>
+<p align="center"> <img src="img/L_STN_arch.png" alt="sample" width="600" /> </p>
+
+<p align="center">
+    <img src="img/perf_caltech_101.png" alt="sample" height="300" />
+    <img src="img/perf_cifar_10.png" alt="sample" height="300" />
+</p>
+
+<p align="center"> <img src="img/STN_compare.png" alt="sample" width="600" /> </p>
