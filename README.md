@@ -30,7 +30,7 @@ the performance of STN transformation with less parameters and computational ove
 ## 📁 Folder Hierarchy
 
 ```
-src/STN
+code/STN
 ├── Caltech101
 │   ├── alexnet_sp.ipynb
 │   ├── DenseNet121_sp.ipynb
