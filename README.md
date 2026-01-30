@@ -25,4 +25,58 @@ the performance of STN transformation with less parameters and computational ove
     <img src="img/perf_cifar_10.png" alt="sample" height="450" />
 </p>
 
-<p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>
+<p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>src/STN
+
+## Folder Hierarchy
+
+```
+src/STN
+├── Caltech101
+│   ├── alexnet_sp.ipynb
+│   ├── DenseNet121_sp.ipynb
+│   ├── DenseNet161_sp.ipynb
+│   ├── DenseNet169_sp.ipynb
+│   ├── DenseNet201_sp.ipynb
+│   ├── EfficientNetb0_sp.ipynb
+│   ├── EfficientNetb1_sp.ipynb
+│   ├── EfficientNetb2_sp.ipynb
+│   ├── EfficientNetb3_sp.ipynb
+│   ├── EfficientNetb4_sp.ipynb
+│   ├── EfficientNetb5_sp.ipynb
+│   ├── ResNet-101_sp.ipynb
+│   ├── ResNet-152_sp.ipynb
+│   ├── ResNet-18_sp.ipynb
+│   ├── ResNet34_sp.ipynb
+│   └── ResNet-50_sp.ipynb
+├── Cifar10
+│   ├── alexnet_sp.ipynb
+│   ├── DenseNet121_sp.ipynb
+│   ├── DenseNet161_sp.ipynb
+│   ├── DenseNet169_sp.ipynb
+│   ├── DenseNet201_sp.ipynb
+│   ├── EfficientNetb0_sp.ipynb
+│   ├── EfficientNetb1_sp.ipynb
+│   ├── EfficientNetb2_sp.ipynb
+│   ├── EfficientNetb3_sp.ipynb
+│   ├── EfficientNetb4_sp.ipynb
+│   ├── ResNet-101_sp.ipynb
+│   ├── ResNet-152_sp.ipynb
+│   ├── ResNet-18_sp.ipynb
+│   ├── ResNet34_sp.ipynb
+│   └── ResNet-50_sp.ipynb
+└── TSRD
+    ├── alexnet_sp.ipynb
+    ├── DenseNet121_sp.ipynb
+    ├── DenseNet.ipynb
+    ├── EfficientNetb0_sp.ipynb
+    ├── EfficientNetb1_sp.ipynb
+    ├── EfficientNetb2_sp.ipynb
+    ├── EfficientNetb3_sp.ipynb
+    ├── ResNet-101_sp.ipynb
+    ├── ResNet-152_sp.ipynb
+    ├── ResNet-18_sp.ipynb
+    ├── ResNet-34_sp.ipynb
+    └── ResNet-50_sp.ipynb
+
+4 directories, 43 files
+```
