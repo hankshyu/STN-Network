@@ -27,7 +27,7 @@ the performance of STN transformation with less parameters and computational ove
 
 <p align="center"> <img src="img/STN_compare.png" alt="sample" width="720" /> </p>
 
-## Folder Hierarchy
+## 📁 Folder Hierarchy
 
 ```
 src/STN
